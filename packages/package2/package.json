@@ -1,0 +1,24 @@
+{
+  "name": "package2",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "cracoConfig": "../../craco.config.js",
+  "dependencies": {
+    "components": "^1.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "create-react-app-monorepo",
+  "version": "1.0.0",
+  "author": "Ichiro Nagata",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "clean": "npx lerna clean",
+    "start": "npx lerna run --parallel start",
+    "build": "npx lerna run --parallel build",
+    "test": "npx lerna run --parallel test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,sass,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.2.1",
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.2",
+    "@types/react": "16.8.18",
+    "@types/react-dom": "16.8.4",
+    "craco-babel-loader": "^0.1.4",
+    "husky": "^2.3.0",
+    "jest": "24.7.1",
+    "jest-puppeteer": "^4.2.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1",
+    "react-scripts": "3.0.1",
+    "typescript": "3.4.5"
+  }
+}
