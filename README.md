@@ -4,6 +4,8 @@
 </p>
 
 ## Install
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fichironagata%2Fcreate-react-app-monorepo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fichironagata%2Fcreate-react-app-monorepo?ref=badge_shield)
+
 
 ```sh
 yarn install
@@ -29,3 +31,7 @@ Give a ⭐️ if this project helped you !
 ---
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fichironagata%2Fcreate-react-app-monorepo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fichironagata%2Fcreate-react-app-monorepo?ref=badge_large)
